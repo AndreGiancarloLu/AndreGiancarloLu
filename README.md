@@ -39,7 +39,8 @@ I enjoy continuously learning and improving my skills in **data cleaning, proces
 - NumPy  
 - Matplotlib  
 - Seaborn  
-- Jupyter Notebook  
+- Jupyter Notebook
+- Power BI
 
 **Cloud & Infrastructure:**  
 - Google Cloud Platform (BigQuery, Cloud Storage)  
@@ -53,9 +54,19 @@ I enjoy continuously learning and improving my skills in **data cleaning, proces
 
 ## Major Projects
 
-**1. Philippine Weather Analytics Workflow/Pipeline**
+**1. Philippine Weather Analytics Pipeline (Python, dlt, Kestra, BigQuery, dbt, Power BI)**
+- Built an end-to-end ELT pipeline ingesting 10 years of daily weather data for 83 Philippine provinces from the Open-Meteo API, orchestrated with Kestra for daily incremental loads and historical backfill.
+- Engineered dbt staging, intermediate, and mart layers producing 5 analytical tables including province climate summaries, monthly seasonality patterns, and weather risk profiles.
+- Created a Power BI dashboard featuring province-level choropleth maps, a 10-year temperature trend analysis revealing a ~1°C warming pattern across most provinces, and weather risk profile per province.
 
+**2. Car Viewing Application (Python, PySide6, Selenium, SQLite, BeautifulSoup4)**
+- Built a python application that scrapes, stores, and displays live car listings and automotive news from AutoDeal.com.ph using a headless Firefox browser via Selenium.
+- Applied web scraping, data cleaning, data transformation, and database management techniques.
+- Major features include car specs comparison, filtering and sorting car listings, and responsive GUI.
 
+**3. Superstore Sales Data Analysis (Python, Pandas, Matplotlib, Scikit-learn, Jupyter)**
+- Conducted end-to-end exploratory data analysis on 9,994 retail transactions spanning 2014–2017, uncovering profitability drivers across product categories, customer segments, and regions.
+- Visualized sales and profit trends over time using time-series line charts, bar charts, and scatter plots.
 <!--
 **LuAndre49/luandre49** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
